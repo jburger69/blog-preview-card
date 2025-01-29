@@ -3,8 +3,9 @@ body {
 }
 
 .card {
-    border: 12px solid white;
+    border: 12px solid rgb(255, 255, 255);
     border-radius: 20px;
+    box-shadow: 10px 5px 5px black;
     background-color: white;
     position: absolute;
     top: 50%;
