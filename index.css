@@ -12,7 +12,8 @@ body {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    padding: 10px;
+    padding: 20px;
+    
 }
 .card-title {
     display: inline-block;
@@ -26,16 +27,22 @@ body {
 }
 
 .card-date {
-    font-family: "figtree";
-    padding-bottom: 20px;
+    font-family: "Figtree";
+}
+
+.card-text {
+    font-size: 24px;
+    color: hsl(0, 0%, 7%);
+}
+
+.card-paragraph {
+    font-family: "Figtree";
+    font-size: 14px;
+    text-overflow: ellipsis;
 }
 
 .card-image {
     border-radius: 10px;
-}
-
-.card-content {
-    
 }
 
 .author-image {
@@ -49,3 +56,7 @@ body {
     font-family: "Figtree";
     font-weight: bold;
 }
+
+.card-text:hover {
+    color: #F4D04E!important;
+  }
