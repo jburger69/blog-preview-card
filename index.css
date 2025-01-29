@@ -25,6 +25,11 @@ body {
   cursor: pointer; 
 }
 
+.card-date {
+    font-family: "figtree";
+    padding-bottom: 20px;
+}
+
 .card-image {
     border-radius: 10px;
 }
