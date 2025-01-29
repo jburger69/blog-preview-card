@@ -39,6 +39,7 @@ body {
     font-family: "Figtree";
     font-size: 14px;
     text-overflow: ellipsis;
+    color: hsl(0, 0%, 42%);
 }
 
 .card-image {
